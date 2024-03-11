@@ -2,6 +2,9 @@
 
 This repository contains a MySQL database dump for a railway reservation system.
 
+![poster](https://github.com/ffathy-tdx/Train-Reservation-System/assets/103205660/180d32ba-32b2-44b5-baea-4f42e129fb5d)
+
+
 ## Description
 
 The database consists of several tables representing different entities in the railway reservation system, including classes of tickets, fares, passengers, reservations, stations, stops, trains, and reservation payments.
