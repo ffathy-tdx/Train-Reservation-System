@@ -28,3 +28,6 @@ mysql -u your_username -p your_database_name < railway_reservation_system.sql
 ```
 
 Replace your_username with your MySQL username, your_database_name with the name of the database you want to import the dump into, and railway_reservation_system.sql with the path to the SQL dump file.
+
+Disclaimer
+This database dump is provided as-is for educational purposes. It may not be suitable for production use without further modifications and testing.
