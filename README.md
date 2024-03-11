@@ -25,5 +25,6 @@ You can import this MySQL dump into your database management system to set up a 
 
 ```bash
 mysql -u your_username -p your_database_name < railway_reservation_system.sql
+```
 
 Replace your_username with your MySQL username, your_database_name with the name of the database you want to import the dump into, and railway_reservation_system.sql with the path to the SQL dump file.
