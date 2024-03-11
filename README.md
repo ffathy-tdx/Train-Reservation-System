@@ -1,30 +1,34 @@
-# Project Name
+# Train Reservation System
 
-This project is a [brief description of what the project does].
+The Train Reservation System is a web-based application designed to facilitate the booking and management of train tickets for passengers. It provides a user-friendly interface for users to search for trains, view available seats, make reservations, and manage their bookings.
 
-## Database Schema
+## Features
 
-### Classes
+- **Train Search**: Users can search for trains based on departure and arrival stations, date, and other criteria.
+- **Seat Availability**: The system displays available seats for each train, allowing users to choose their preferred seats.
+- **Reservation Management**: Users can make, modify, and cancel reservations easily through their account dashboard.
+- **Payment Processing**: Secure payment processing allows users to pay for their reservations using various payment methods.
+- **User Authentication**: Secure user authentication ensures that only authorized users can access the system and make reservations.
+- **Admin Dashboard**: Administrators have access to a dashboard where they can manage trains, stations, fares, and view reservation statistics.
 
-| Column Name   | Data Type    | Constraints           |
-|---------------|--------------|-----------------------|
-| class_id      | int          | PRIMARY KEY           |
-| class_name    | varchar(255) | NOT NULL              |
-| air_conditioning | tinyint(1) | NOT NULL, DEFAULT '0'|
+## Technologies Used
 
-... (Other tables and columns follow similar format)
+- **Frontend**: HTML, CSS, JavaScript, React.js
+- **Backend**: Node.js, Express.js, MySQL
+- **Database**: MySQL for storing train schedules, passenger information, and reservations.
+- **Payment Gateway**: Integration with a third-party payment gateway for processing payments securely.
 
-### Sample Data
+## Getting Started
 
-... (Sample data for each table)
+To get started with the Train Reservation System:
 
-## Setting Up
-
-1. Clone the repository.
+1. Clone the repository: `git clone https://github.com/yourusername/train-reservation-system.git`
 2. Set up the database using the provided SQL dump.
-3. Install dependencies using `npm install`.
-4. Run the application using `npm start`.
+3. Install dependencies: `npm install`
+4. Start the backend server: `npm start`
+5. Start the frontend application: `npm run start:client`
+6. Access the application in your web browser at `http://localhost:3000`
 
 ## License
 
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
